@@ -5,7 +5,9 @@ export default function Home() {
     <main className="">
       <div>Hello world</div>
       <ThemeToggle />
-      <Button>Get Started</Button>
+      <Button variant="default" size="sm">
+        Get Started
+      </Button>
       <Button variant="outline">Outline</Button>
       <Button variant="link">LInk</Button>
       <Button variant="ghost">Ghost</Button>
